@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|128987000|69827000|cc803ad1-98e6-487e-883e-b3b828a6ed6a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -256,16 +251,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|863600|660400|0b93863e-3f04-4cc7-9bc8-8d9aaa06b0e7|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|914400|660400|bf41d85d-b6ff-4ea5-95c8-67e3a3c4eea1|20e62f58-514a-4bb9-8868-ec05e9e4ed9d|/ae49055e-b3e4-4a61-b350-bee87e41b584/24758572-d37c-42d6-94fe-14b510540e4f|/ae49055e-b3e4-4a61-b350-bee87e41b584/24758572-d37c-42d6-94fe-14b510540e4f|/ae49055e-b3e4-4a61-b350-bee87e41b584/24758572-d37c-42d6-94fe-14b510540e4f",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -469,7 +455,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -490,7 +476,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "customPCB.kicad_pro",
+    "filename": "smart_sensor_battery.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -775,10 +761,6 @@
     [
       "ae49055e-b3e4-4a61-b350-bee87e41b584",
       "Root"
-    ],
-    [
-      "24758572-d37c-42d6-94fe-14b510540e4f",
-      "Battery Management"
     ]
   ],
   "text_variables": {}
