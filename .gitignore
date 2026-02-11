@@ -17,3 +17,5 @@ archive_3d_models.log
 # Operating System junk
 .DS_Store
 Thumbs.db
+
+/production
