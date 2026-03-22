@@ -19,3 +19,5 @@ archive_3d_models.log
 Thumbs.db
 
 PCB/production
+/ESPHome/XIAO-C6/.gitignore
+/ESPHome/XIAO-C6/stemma_soil_sensor/__pycache__/
