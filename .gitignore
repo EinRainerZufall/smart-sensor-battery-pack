@@ -5,7 +5,7 @@
 *.000
 *.rpt
 *.zip
-*.csv
+
 fp-info-cache
 _autosave-*
 archive_3d_models.log
